@@ -4,18 +4,7 @@ import Link from "next/link"
 import { useAuth } from "@/providers/auth-provider"
 import { Button } from "@/components/ui/button"
 import { useTheme } from "next-themes"
-import {
-  GraduationCap,
-  BookOpen,
-  Users,
-  Shield,
-  ArrowRight,
-  Sun,
-  Moon,
-  LogOut,
-  LayoutDashboard,
-  Sparkles,
-} from "lucide-react"
+import { GraduationCap, Sun, Moon, LogOut, LayoutDashboard } from "lucide-react"
 
 export default function LandingPage() {
   const { user, logout } = useAuth()
@@ -34,7 +23,7 @@ export default function LandingPage() {
               <GraduationCap className="h-6 w-6" />
             </div>
             <span className="bg-linear-to-r from-foreground via-foreground/90 to-muted-foreground bg-clip-text text-xl font-bold tracking-tight">
-              EduPortal
+              Baby_Bytez
             </span>
           </Link>
 
@@ -133,7 +122,7 @@ export default function LandingPage() {
 
           <div className="container mx-auto max-w-4xl space-y-8 px-4 text-center sm:px-6">
             <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-6xl">
-              Empowering Education with <br />
+              Empowering Team Collboration with <br />
               <span className="bg-linear-to-r from-primary to-violet-500 bg-clip-text text-transparent">
                 Next-Gen Portal Controls
               </span>
@@ -152,7 +141,7 @@ export default function LandingPage() {
       <footer className="border-t border-border/40 bg-card py-8">
         <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 text-center sm:flex-row sm:px-6 sm:text-left">
           <p className="text-xs text-muted-foreground">
-            &copy; 2026 EduPortal Inc. All rights reserved.
+            &copy; 2026 Baby_Bytez_Portal Inc. All rights reserved.
           </p>
           <div className="flex gap-4 text-xs text-muted-foreground">
             <Link href="#" className="transition-colors hover:text-foreground">
